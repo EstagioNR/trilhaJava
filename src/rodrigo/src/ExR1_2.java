@@ -15,10 +15,7 @@ public class ExR1_2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("\nEscolha a conversão desejada:");  
-
-        System.out.println(); // pulando linha usar \n dentro dos ""
-
-        System.out.println("1. Celsius para Fahrenheit"); // ESOLHA UM OU OUTRO F° OU C°
+        System.out.print("1. Celsius para Fahrenheit"); // ESOLHA UM OU OUTRO F° OU C° sem ln o texto de baixo fica junto com o de cima 
         System.out.println("2. Fahrenheit para Celsius");
 
         int opcao = scanner.nextInt(); 
